@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'typo'
+
+[params]
+homeCollection = 'posts'
+hideHeader = false
+showFooter = false
+footerContent = "Your **custom** md `footer`"
+
+[params.breadcrumbs]
+enabled = false
+showCurrentPage = true
+home = "~"
+
