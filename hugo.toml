@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'typo'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 homeCollection = 'posts'
 hideHeader = false
